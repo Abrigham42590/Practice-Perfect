@@ -6,7 +6,6 @@ public class BankCharges {
 		
 		@SuppressWarnings("resource")
 		Scanner numbers = new Scanner(System.in);
-		
 		double checks, total;
 		
 		System.out.print("Please enter the number of checks written this month:\n");

@@ -22,11 +22,11 @@ public class QueueLinkedListDemo {
 	};
 	
 	for(String s: names) {
-	  quene.enquene(s);
+	  quene.enqueue(s);
 	}
 	
 	for(String n: numbers1) {
-		quene.enquene2(n);
+		quene.enqueue2(n);
 	}
 	
 	System.out.println("");
@@ -45,13 +45,13 @@ public class QueueLinkedListDemo {
 			System.out.println("Employee Name: ");
 			names1 = number.nextLine();
 			
-			quene.enquene(names1);
+			quene.enqueue(names1);
 			
 			System.out.println("Employee Hourly Wage: ");
 			numbers2 = number.nextLine();
 			
 			System.out.println("");
-			quene.enquene2(numbers2);
+			quene.enqueue2(numbers2);
 			
 			System.out.println("State of Queue:"); 
 			

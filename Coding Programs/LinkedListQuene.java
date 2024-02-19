@@ -36,7 +36,7 @@ public class LinkedListQuene<T> {
 	
 
 
-public void enquene(String names) {
+public void enqueue(String names) {
 	
 	if (rear != null) {
 		
@@ -53,7 +53,7 @@ public void enquene(String names) {
 	
 }
 
-public void enquene2(String numbers) {
+public void enqueue2(String numbers) {
 	
 	if(rear2 != null) {
 		rear2.next2 = new Node2<T>(numbers, null);
